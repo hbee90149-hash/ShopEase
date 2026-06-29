@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Products</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="products.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+ <!-- Header -->
+
+  <header class="header">
+
+    <nav class="navbar container">
+
+      <a href="#" class="logo">
+        Shop<span>Ease</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="auth.html">Login</a></li>
+      </ul>
+
+      <a href="cart.html" class="cart-icon">
+      🛒
+      <span id="cart-count">0</span>
+  </a>
+
+ </nav>
+
+  </header>
+
+
+
+<section class="products-page">
+
+<div class="container">
+
+<h1 class="page-title">
+All Products
+</h1>
+
+<div class="filter-bar">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search Products...">
+
+<select id="categoryFilter">
+
+<option value="all">All Categories</option>
+
+<option value="Fashion">Fashion</option>
+
+<option value="Electronics">Electronics</option>
+
+<option value="Shoes">Shoes</option>
+
+<option value="Beauty">Beauty</option>
+
+<option value="Accessories">Accessories</option>
+
+<option value="Home Living">Home Living</option>
+
+<option value="Sports">Sports</option>
+
+<option value="Office and School Supplies">Office and School Supplies</option>
+</select>
+
+</div>
+
+<div id="productsGrid" class="products-grid">
+
+</div>
+
+</div>
+
+</section>
+
+<script src="products.js"></script>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-box">
+
+            <h2 class="footer-logo">
+                Shop<span>Ease</span>
+            </h2>
+
+            <p>
+                Your trusted online shopping destination for
+                Fashion, Electronics, Beauty, Sports and more.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="auth.html">Login</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Customer Support</h3>
+
+            <ul>
+                <li>Email: support@shopease.com</li>
+                <li>Phone: +92 300 1234567</li>
+                <li>Mon - Sat: 9AM - 8PM</li>
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-links">
+
+                <a href="#">📘</a>
+                <a href="#">📷</a>
+                <a href="#">🐦</a>
+                <a href="#">▶️</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ShopEase. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

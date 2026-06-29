@@ -1,0 +1,105 @@
+/* =========================
+   PRODUCT DETAILS PAGE
+========================= */
+
+.product-details-page{
+    padding:120px 0;
+    min-height:100vh;
+    background:#f8fafc;
+}
+
+.product-wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.product-image img{
+    width:100%;
+    border-radius:20px;
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.15);
+}
+
+.product-info h1{
+    font-size:2.5rem;
+    margin-bottom:15px;
+    color:#1f2937;
+}
+
+.rating{
+    color:#fbbf24;
+    font-size:1.2rem;
+    margin-bottom:15px;
+}
+
+.price{
+    color:#6c63ff;
+    font-size:2rem;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.description{
+    line-height:1.8;
+    color:#4b5563;
+    margin-bottom:25px;
+}
+
+#productBrand,
+#productStock{
+    margin-bottom:10px;
+    color:#374151;
+}
+
+.quantity-box{
+    margin-bottom:25px;
+}
+
+.quantity-box input{
+    width:80px;
+    padding:10px;
+    margin-left:10px;
+
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+#addToCartBtn{
+    border:none;
+
+    background:#6c63ff;
+    color:white;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:1rem;
+
+    transition:.3s;
+}
+
+#addToCartBtn:hover{
+    background:#5548ff;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .product-wrapper{
+        grid-template-columns:1fr;
+    }
+
+    .product-info h1{
+        font-size:2rem;
+    }
+
+}

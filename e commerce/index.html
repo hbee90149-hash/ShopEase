@@ -1,0 +1,335 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ShopEase</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header class="header">
+
+    <nav class="navbar container">
+
+      <a href="#" class="logo">
+        Shop<span>Ease</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="auth.html">Login</a></li>
+      </ul>
+
+     <a href="cart.html" class="cart-icon">
+  🛒
+   <span id="cart-count">0</span>
+</a>
+
+    </nav>
+
+  </header>
+
+  <!-- Hero Section -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>Discover Trendy Products</h1>
+
+      <p>
+        Shop premium collections with amazing discounts.
+      </p>
+
+      <a href="products.html" class="btn">
+        Shop Now
+      </a>
+    </div>
+  </section>
+<!-- Categories Section -->
+
+  <section class="categories">
+
+  <div class="container">
+
+    <h2 class="section-title">
+      Shop By Category
+    </h2>
+    <div class="category-grid">
+
+      <div class="category-card">
+        <img src="images/picture 2.jpg" alt="Fashion">
+        <h3>Fashion</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="images/picture 4.jpg" alt="Electronics">
+        <h3>Electronics</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="images/picture 5.jpg" alt="Shoes">
+        <h3>Shoes</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="images/picture 6.jpg" alt="Beauty">
+        <h3>Beauty</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="images/picture 3.jpg" alt="Accessories">
+        <h3>Accessories</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="images/picture 7.jpg" alt="Home Livings">
+        <h3>Home Livings</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="images/picture 8.jpg" alt="Office and School Supplies">
+        <h3>Office and School Supplies</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="images/picture 9.jpg" alt="Sports">
+        <h3>Sports</h3>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- Featured Products -->
+
+<section class="products">
+
+  <div class="container">
+
+    <h2 class="section-title">
+      Featured Products
+    </h2>
+
+    <div class="products-grid">
+
+      <div class="product-card">
+
+        <img src="images/product 1.jpg" alt="Product">
+
+        <div class="product-info">
+
+          <h3>Wireless Headphones</h3>
+
+          <div class="rating">
+            ⭐⭐⭐⭐⭐
+          </div>
+
+          <p class="price">$89.99</p>
+
+         <button
+         class="product-btn"
+         data-name="Wireless Headphones"
+         data-price="89.99">
+         Add To Cart
+         </button>
+
+        </div>
+
+      </div>
+
+      <div class="product-card">
+
+        <img src="images/product 2.jpg" alt="Product">
+
+        <div class="product-info">
+
+          <h3>Smart Watch</h3>
+
+          <div class="rating">
+            ⭐⭐⭐⭐⭐
+          </div>
+
+          <p class="price">$129.99</p>
+
+          <button
+          class="product-btn"
+          data-name="Smart Watch"
+          data-price="129.99">
+          Add To Cart
+         </button>
+
+        </div>
+
+      </div>
+
+      <div class="product-card">
+
+        <img src="images/product 3.jpg" alt="Product">
+
+        <div class="product-info">
+
+          <h3>Running Shoes</h3>
+
+          <div class="rating">
+            ⭐⭐⭐⭐⭐
+          </div>
+
+          <p class="price">$59.99</p>
+
+          <button
+          class="product-btn"
+          data-name="Running Shoes"
+          data-price="59.99">
+          Add To Cart
+         </button>
+
+        </div>
+
+      </div>
+
+      <div class="product-card">
+
+        <img src="images/product 4.jpg" alt="Product">
+
+        <div class="product-info">
+
+          <h3>Leather Bag</h3>
+
+          <div class="rating">
+            ⭐⭐⭐⭐⭐
+          </div>
+
+          <p class="price">$49.99</p>
+
+          <button
+          class="product-btn"
+          data-name="Leather Bag"
+          data-price="49.99">
+          Add To Cart
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Offer Banner -->
+
+<section class="offer-banner">
+
+  <div class="offer-content">
+
+    <h2>Summer Sale 50% OFF</h2>
+
+    <p>
+      Limited Time Offer On Selected Products
+    </p>
+
+    <a href="products.html" class="btn">
+      Shop Collection
+    </a>
+
+  </div>
+
+</section>
+</body>
+</html>
+<script src="script.js"></script>
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-box">
+
+            <h2 class="footer-logo">
+                Shop<span>Ease</span>
+            </h2>
+
+            <p>
+                Your trusted online shopping destination for
+                Fashion, Electronics, Beauty, Sports and more.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="auth.html">Login</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Customer Support</h3>
+
+            <ul>
+                <li>Email: support@shopease.com</li>
+                <li>Phone: +92 300 1234567</li>
+                <li>Mon - Sat: 9AM - 8PM</li>
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-links">
+
+                <a href="#">📘</a>
+                <a href="#">📷</a>
+                <a href="#">🐦</a>
+                <a href="#">▶️</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ShopEase. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>

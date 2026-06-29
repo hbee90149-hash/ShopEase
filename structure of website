@@ -1,0 +1,13 @@
+ecommerce-website/
+│
+├── index.html
+│
+├── css/
+│   └── style.css
+│
+├── images/
+│   └── banners/
+│       └── hero-banner.png
+│
+├── js/
+│   └── script.js
